@@ -30,7 +30,7 @@ def load_data():
     pred_df = pd.read_csv("CollegeApp/data/xgboost_cutoff_predictions_2024.csv")
     original_df = pd.read_csv("CollegeApp/data/cleaned_tgeapcet_2017_2024.csv")
 
-    le_college = pickle.load(open("CollegeApp/Model/le_college.pkl", "rb"))
+    le_college = pickle.load(open("CollegeApp/Model_pkl_files/le_college.pkl", "rb"))
 
     # Encode inst_code in original dataset
     original_df["inst_code"] = le_college.transform(original_df["inst_code"])
@@ -49,8 +49,8 @@ df, original_df = load_data()
 # ===============================
 @st.cache_resource
 def load_encoders():
-    le_branch = pickle.load(open("CollegeApp/Model/le_branch.pkl", "rb"))
-    le_catgen = pickle.load(open("CollegeApp/Model/le_catgen.pkl", "rb"))
+    le_branch = pickle.load(open("CollegeApp/Model_pkl_files/le_branch.pkl", "rb"))
+    le_catgen = pickle.load(open("CollegeApp/Model_pkl_files/le_catgen.pkl", "rb"))
     return le_branch, le_catgen
 
 le_branch, le_catgen = load_encoders()
