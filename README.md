@@ -1,3 +1,5 @@
+Live Demo : https://college-recommendation-system-ltu89xqpaipidxquxhhjwr.streamlit.app/
+
 🎓 College Recommendation System
 
 A Machine Learning-based web application that helps students choose the right colleges during counseling by providing **personalized recommendations** based on rank, category, gender, and branch preferences.
