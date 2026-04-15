@@ -1,4 +1,4 @@
-Live Demo : https://college-recommendation-system-ltu89xqpaipidxquxhhjwr.streamlit.app/
+Live Demo : https://college-recommendation-system.streamlit.app/
 
 🎓 College Recommendation System
 
