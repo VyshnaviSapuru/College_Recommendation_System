@@ -30,17 +30,25 @@ Recommends colleges based on prediction
 Categorizes chances into:
 
 🟢 High
+
 🟡 Medium
+
 🔴 Low
 
 🚀 Features
 
 🔍 Personalized college recommendations
+
 📊 Cutoff prediction using ML model
+
 🎯 Chance-based classification (High/Medium/Low)
+
 ⚡ Fast and interactive UI (Streamlit)
+
 📈 Trend-based decision support
+
 📂 Supports large datasets
+
 🧠 Machine Learning Model
 
 Algorithm Used: XGBoost Regressor
